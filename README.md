@@ -21,13 +21,13 @@
 {
     "keyword": "jingdong",		//平台名，用于定位和启动app
     "appPackage":"",			//包名，同样用于启动app
-    "appActivity": "",			//Activity名
-    "phoneIP": "10.10.1.137",	//phone再内网中的ip
+    "appActivity": "",			//Activity名，同上
+    "phoneIP": "10.10.1.137",	//phone在内网中的ip
     "phonePort": 5555,			//adb端口
     "startState": "activityPage", //首页activity名
     "switchPageDelay": 2,		//页面切换延时
     "activityPageInterface": {	//从首页进入活动页面的入口
-        "position": [	//模拟点击的未知
+        "position": [	//模拟点击的位置
             1000,
             1739
         ],
