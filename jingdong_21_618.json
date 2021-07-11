@@ -1,0 +1,198 @@
+{
+    "keyword": "jingdong",
+    "appPackage":"",
+    "appActivity": "",
+    "phoneIP": "10.10.1.137",
+    "phonePort": 5555,
+    "startState": "activityPage",
+    "switchPageDelay": 2,
+    "activityPageInterface": {
+        "position": [
+            1000,
+            1739
+        ],
+        "text": "瓜分"
+    },
+    "tasksPageInterface": {
+        "position": [
+            931,
+            1808
+        ],
+        "text": "做任务领金币"
+    },
+    "tasksTypes": [
+        {
+            "name": "15sView",
+            "repeat": 0,
+            "keywrod_Description": ["浏览15秒最高可得*"],
+            "button_Name": "去完成",
+            "button_Position": [
+                0,
+                0
+            ],
+            "delay_after_touch": 18,
+            "subTasks": [],
+            "needRefresh": true
+        },
+        {
+            "name": "8sView",
+            "repeat": 0,
+            "keywrod_Description": ["浏览8秒*", "参与8秒可得*"],
+            "button_Name": "去完成",
+            "button_Position": [
+                0,
+                0
+            ],
+            "delay_after_touch": 13,
+            "subTasks": [],
+            "needRefresh": true
+        },
+        {
+            "name": "0sView",
+            "repeat": 0,
+            "keywrod_Description": ["参与可得*", "成功浏览可得*", "浏览并关注可得*", "逛店可得*"],
+            "button_Name": "去完成",
+            "button_Position": [
+                0,
+                0
+            ],
+            "delay_after_touch": 2,
+            "subTasks": [],
+            "needRefresh": true
+        },
+        {
+            "name": "0sView_5Addbuy",
+            "repeat": 1,
+            "keywrod_Description": ["成功浏览加购5个*"],
+            "button_Name": "去完成",
+            "button_Position": [
+                0,
+                0
+            ],
+            "delay_after_touch": 3,
+            "subTasks": [
+                {
+                    "name": "touch",
+                    "value": [
+                        462,
+                        1127
+                    ]
+                },
+                {
+                    "name": "delay",
+                    "value": 1
+                },
+                {
+                    "name": "key",
+                    "value": "back"
+                },
+                {
+                    "name": "delay",
+                    "value": 1
+                },
+                {
+                    "name": "touch",
+                    "value": [
+                        969,
+                        1127
+                    ]
+                },
+                {
+                    "name": "delay",
+                    "value": 1
+                },
+                {
+                    "name": "key",
+                    "value": "back"
+                },
+                {
+                    "name": "delay",
+                    "value": 1
+                },
+                {
+                    "name": "touch",
+                    "value": [
+                        462,
+                        1846
+                    ]
+                },
+                {
+                    "name": "delay",
+                    "value": 1
+                },
+                {
+                    "name": "key",
+                    "value": "back"
+                },
+                {
+                    "name": "delay",
+                    "value": 1
+                },
+                {
+                    "name": "touch",
+                    "value": [
+                        969,
+                        1846
+                    ]
+                },
+                {
+                    "name": "delay",
+                    "value": 1
+                },
+                {
+                    "name": "key",
+                    "value": "back"
+                },
+                {
+                    "name": "delay",
+                    "value": 1
+                },
+                {
+                    "name": "touch",
+                    "value": [
+                        462,
+                        2586
+                    ]
+                },
+                {
+                    "name": "delay",
+                    "value": 1
+                },
+                {
+                    "name": "key",
+                    "value": "back"
+                },
+                {
+                    "name": "delay",
+                    "value": 1
+                }
+            ],
+            "needRefresh": true
+        },
+        {
+            "name": "joinVip",
+            "repeat": 0,
+            "keywrod_Description": ["成功入会可得*"],
+            "button_Name": "去完成",
+            "button_Position": [
+                0,
+                0
+            ],
+            "delay_after_touch": 2,
+            "subTasks": [
+                {
+                    "name": "touch",
+                    "value": [
+                        536,
+                        2210
+                    ]
+                }
+            ],
+            "needRefresh": true
+        }
+    ],
+    "process": {
+        "prcessType": "auto",
+        "flow": []
+    }
+}
